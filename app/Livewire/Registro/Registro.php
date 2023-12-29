@@ -12,13 +12,14 @@ class Registro extends Component
     public $fecha_nacimiento;
     public $email;
     public $password;
-    public $repassword;
+    public $password_confirmation;
 
     protected $rules = [
         'pseudonimo' => 'required|min:4|max:15',
         'fecha_nacimiento' => 'required',
-        'email' => 'required|min:12|max:50',
-        'password' => 'required|min:8|max:15'
+        'email' => 'required|min:12|max:50|unique:App\Models\User,email',
+        'password' => 'required|min:8|max:15|confirmed',
+        'password_confirmation' => 'required|min:8|max:15'
     ];
 
     public function render()
@@ -26,7 +27,7 @@ class Registro extends Component
         return view('livewire.registro.registro');
     }
 
-    public function login(){
+    public function registrar(){
         try{
             $this->validate();
             User::create([
