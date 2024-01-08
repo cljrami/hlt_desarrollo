@@ -68,6 +68,123 @@
                                     </div>
                                     <img src="/assets/imgs/historias/hombre.webp" alt="">
                                 </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                </div>
                             </div>
                             {{-- <div class="swiper-pagination"></div> --}}
                         </div>
