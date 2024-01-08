@@ -33,7 +33,7 @@
                             CLUB LLORÓN </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                             <li><a class="dropdown-item" href="#">¿Qué es el Club Llorón?</a></li>
-                            <li><a class="dropdown-item" href="">Registro</a></li>
+                            <li><a class="dropdown-item" href="{{route('registro')}}">Registro</a></li>
                             <li><a class="dropdown-item" href="">Beneficios</a></li>
 
                         </ul>

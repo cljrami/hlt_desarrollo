@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PruebasController;
 
+use App\Http\Controllers\PerfilController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -77,18 +79,22 @@ Route::get('/perfil/publicar', function () {
     return view('perfil.publicar.index');
 })->name('publicar-historia');
 
-Route::get('/perfil', function () {
-    return view('perfil.index');
-})->name('perfil');
+Route::controller(PerfilController::class)->middleware(['auth'])->group(function (){
+    Route::get('/perfil', 'index')->name('perfil');
+});
+
+// Route::get('/perfil', function () {
+//     return view('perfil.index');
+// })->name('perfil');
 
 
 Route::get('/registro', function () {
     return view('registro.index');
 })->name('registro');
 
-Route::get('/ingreso', function () {
+Route::get('/login', function () {
     return view('ingreso.index');
-})->name('ingreso');
+})->name('login');
 
 
 
