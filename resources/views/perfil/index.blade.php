@@ -49,7 +49,7 @@
                 <label for="tab2"><i class="fa-regular fa-bookmark"></i> Favoritos</label>
                 <!-- Tab 3 -->
                 <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
-                <label for="tab3"><i class="fa-regular fa-heart"></i> Me Gusta</label>
+                <label for="tab3"><i class="fa-regular fa-heart"></i> Mis Me Gusta</label>
 
                 <div class="tab-panels">
                     <section id="tab1" class="tab-panel">
