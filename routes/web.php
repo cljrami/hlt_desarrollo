@@ -92,9 +92,9 @@ Route::get('/registro', function () {
     return view('registro.index');
 })->name('registro');
 
-Route::get('/login', function () {
+Route::get('/ingreso', function () {
     return view('ingreso.index');
-})->name('login');
+})->name('ingreso');
 
 
 

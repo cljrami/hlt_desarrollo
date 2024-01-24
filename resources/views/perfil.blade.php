@@ -52,8 +52,31 @@
                 <label for="tab3"><i class="fa-regular fa-heart"></i> Me Gusta</label>
 
                 <div class="tab-panels">
-                    <section id="tab1" class="tab-panel row row-cols-3">
+                    <section id="tab1" class="tab-panel">
+                        @foreach ($user->posts as $post)
                         <div class="swiper mis-historias col">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="dropdown-custom ">
+                                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action2</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="/assets/imgs/historias/hombre.webp" alt="">
+                                        <h1 class="mx-2">{{$post->descripcion}}</h1>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+                        {{-- <div class="swiper mis-historias col">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="dropdown-custom ">
@@ -69,7 +92,6 @@
                                     <img src="/assets/imgs/historias/hombre.webp" alt="">
                                 </div>
                             </div>
-                            {{-- <div class="swiper-pagination"></div> --}}
                         </div>
                         
                         <div class="swiper mis-historias col">
@@ -88,7 +110,6 @@
                                     <img src="/assets/imgs/historias/hombre.webp" alt="">
                                 </div>
                             </div>
-                            {{-- <div class="swiper-pagination"></div> --}}
                         </div>
 
                         <div class="swiper mis-historias">
@@ -107,8 +128,7 @@
                                     <img src="/assets/imgs/historias/hombre.webp" alt="">
                                 </div>
                             </div>
-                            {{-- <div class="swiper-pagination"></div> --}}
-                        </div>
+                        </div> --}}
                     </section>
                     
                     <section id="tab3" class="tab-panel">
@@ -117,8 +137,6 @@
                 </div>
 
             </div>
-
-            <div class="col-12">asdsa</div>
         </div>
 
     </div>
